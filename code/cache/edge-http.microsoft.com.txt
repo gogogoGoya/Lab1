@@ -1,4 +1,4 @@
-http://edge-http.microsoft.com/captiveportal/generate_204
+http://edge-http.microsoft.com/captiveportal/generate_204333
 HTTP/1.1 400 Bad Request
 Content-Type: text/html; charset=us-ascii
 Date: Wed, 18 Oct 2023 11:56:58 GMT
