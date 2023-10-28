@@ -80,13 +80,13 @@ public class ProxyServer {
     }
     static {
         //屏蔽指定网址
-//        forbidSetList.add("http://jwts.hit.edu.cn/");
-//        forbidSetList.add("jwts.hit.edu.cn");
+       forbidSetList.add("http://jwts.hit.edu.cn/");
+       forbidSetList.add("jwts.hit.edu.cn");
         //屏蔽指定用户
-//        forbidUserList.add("127.0.0.1");
+       forbidUserList.add("127.0.0.1");
         //设置用于钓鱼的源地址和目的地址
-//        redirectAddrMap.put("http://jwes.hit.edu.cn/", "http://www.example.com/");
-//        redirectHostMap.put("jwes.hit.edu.cn", "www.example.com");
+       redirectAddrMap.put("http://jwes.hit.edu.cn/", "http://www.example.com/");
+       redirectHostMap.put("jwes.hit.edu.cn", "www.example.com");
     }
     /**
      * 通过header解析各个参数.
